@@ -1,0 +1,869 @@
+#header {
+  background-image: url("https://64.media.tumblr.com/32b4f55e17ee0d255cc08ab4df79480e/bf380cc5413aeefa-93/s1280x1920/d4f2744aa37de9c086c96a88aae6dd5128966bdf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #151726;
+}
+
+#header .heading {
+  height: 8em;
+}
+
+#header .primary {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+#header .logo,
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header .heading a {
+  color: #151726;
+  text-shadow: 0px 0px 15px #f3bc70;
+}
+
+#header .heading a {
+  color: #f3bc70;
+  text-shadow: 0 0 5px #f3bc70,
+    0 0 15px #f3bc70,
+    0 0 25px #424c5e;
+}
+
+.event .userstuff {
+  background: #424c5e;
+  border: 1px solid #f3bc70;
+}
+
+#outer.wrapper {
+  background: #0d0e1f;
+  color: #f3bc70;
+}
+
+#main a {
+  color: #76859b;
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #f3bc70 !important;
+  text-shadow: 0px 0px 3px #151726;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+span.submit.actions input.button {
+  display: none;
+}
+
+#greeting img.icon {
+  display: none;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 15px #f3bc70;
+  color: #f3bc70 !important;
+  border: 1px solid #0d0e1f;
+}
+
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #0d0e1f !important;
+  border: none;
+  box-shadow: 0px 0px 15px #f3bc70;
+  color: #f3bc70;
+  display: block;
+}
+
+#header #search .text {
+  width: 7em;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70 !important;
+  color: #0d0e1f;
+  border: none;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  color: #505b69;
+  font-weight: bold;
+}
+
+.splash .module h3 {
+  color: #f3bc70;
+  border-bottom: 2px solid #f3bc70;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+  color: #0d0e1f;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #f3bc70;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #f3bc70;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: #424c5e;
+}
+
+#footer {
+  background: #424c5e;
+  color: #f3bc70;
+  border-top: 3px solid #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+#footer a,
+#footer .heading {
+  color: #f3bc70;
+}
+
+.actions a,
+.actions a:focus,
+.actions input:focus,
+.action:focus,
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"],
+.actions li label,
+ul.navigation.actions li a,
+.action:link,
+.actions a:link {
+  background: #424c5e;
+  border: 1px solid #f3bc70;
+  color: #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+  border-radius: 5px;
+}
+
+.current,
+#dashboard .current {
+  background: #f3bc70 !important;
+  color: #0d0e1f !important;
+  box-shadow: 0px 0px 15px #f3bc70 !important;
+  border-radius: 5px;
+}
+
+#dashboard.own {
+  border-top: 5px solid #f3bc70;
+  border-bottom: 5px solid #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+#dashboard a:hover {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+#dashboard a {
+  color: #f3bc70;
+}
+
+dl.meta {
+  border: 1px solid #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+.listbox .index {
+  background: #0d0e1f;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+form dl,
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+textarea,
+span.symbol.question,
+.own {
+  background: #0d0e1f !important;
+  color: #f3bc70 !important;
+  border: 1px solid #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #f3bc70;
+}
+
+span.delete {
+  background: #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+span.delete a {
+  color: #0d0e1f !important;
+  font-weight: bold;
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic {
+  background: #0d0e1f;
+  border: 1px solid #f3bc70;
+}
+
+.dropdown {
+  background: #0d0e1f;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #f3bc70;
+  color: #0d0e1f;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+li.blurb {
+  border: 1px solid #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+.draft {
+  background: #0d0e1f;
+  color: #f3bc70;
+  border: 2px dashed #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+.draft .wrapper {
+  background: #0d0e1f;
+  border: 1px solid #f3bc70;
+}
+
+#header h2 {
+  background: #f3bc70 !important;
+  color: #0d0e1f;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+#stat_chart svg rect:first-of-type {
+  opacity: 60%;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect,
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type,
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:first-of-type {
+  filter: hue-rotate(140deg);
+  opacity: 80% !important;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #0d0e1f;
+  border: 1px solid #f3bc70;
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #0d0e1f;
+}
+
+#modal,
+span.replied {
+  background: #0d0e1f;
+  color: #f3bc70;
+  border: 2px solid #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+h4.heading.byline {
+  background: #f3bc70;
+  color: #0d0e1f;
+}
+
+li.comment {
+  border: 1px solid #f3bc70;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #f3bc70;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+.thread .even {
+  background: #424c5e;
+}
+
+.unread {
+  background: #0d0e1f;
+  border: 5px dashed #f3bc70 !important;
+}
+
+span.unread {
+  background: #f3bc70;
+  color: #0d0e1f;
+}
+
+span.indicator::before {
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+.warnings .tag,
+.work .warning a.tag,
+dd.warning.tags a {
+  border: 1px solid #f3bc70;
+  border-radius: 5px;
+  background: #f3bc70;
+  padding-left: 2px;
+  padding-right: 2px;
+  box-shadow: 0px 0px 10px #f3bc70;
+}
+
+.relationships .tag,
+.work .relationships a.tag,
+dd.relationship.tags a {
+  background: none;
+  color: #f3bc70 !important;
+  font-weight: bold;
+  text-shadow: 0px 0px 15px #f3bc70;
+}
+
+.filters .expander {
+  background: url("https://64.media.tumblr.com/3c89981f933f9f57157d6dcec6fd85a7/94c6737c6db9ad60-e5/s1280x1920/f7557e617a5439c506721bd326580a0cb4c1f8d8.png") left center no-repeat;
+  color: #f3bc70 !important;
+  font-weight: bold;
+}
+
+.filters .expanded .expander {
+  background: url("https://64.media.tumblr.com/dab095a2fd9387bc1e0c57747ba6b13f/94c6737c6db9ad60-ad/s1280x1920/c1a4e14e0565cdcac5d3e20bebac3ab440f2d607.png") left center no-repeat;
+}
+
+.userstuff img,
+.userstuff figure,
+.userstuff iframe {
+  display: none !important;
+}
+
+.comment img,
+.comment .icon,
+.comment .icon img {
+  display: none !important;
+}
+
+.icon img,
+.user .icon,
+.user .icon img {
+  display: none !important;
+}
+
+.icon {
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.donation,
+.donate,
+.announcement {
+  background-color: #0b1a2a;
+  color: #d6c89a;
+  border: 1px solid #3a4f6b;
+  opacity: 0.85;
+}
+
+h2,
+h3,
+h4 {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+h2 img,
+h3 img,
+h4 img {
+  display: none;
+}
+
+.bookmark:not(:has(.tags))::before {
+  content: "🛸 ah. so this is how we’re spending the next hour.";
+}
+
+.reading::before {
+  content: "📚 this list is longer than your attention span..";
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.6em;
+}
+
+.bookmarks-index::before {
+  content: "🫵 reminder: future you will be mad if you don’t leave notes.";
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.6em;
+}
+
+#main h2.heading::before {
+  content: "⭒✴︎˚⋆｡˚☾⋆";
+  display: block;
+  margin-top: 0.2em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+#main h2.heading::after {
+  content: "⋆⭒˚.⋆.";
+  display: block;
+  margin-top: 0.2em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.bookmark .notes::before {
+  content: "🪶 past you said:";
+  font-style: italic;
+  opacity: 0.8;
+}
+
+:root {
+  --text: #FFFFFF;
+  --none: #999999;
+  --g: #78A700;
+  --t: #E6B000;
+  --m: #D76D12;
+  --e: #B0021F;
+  --ff: #B0021F;
+  --fm: #910679;
+  --gen: #78A700;
+  --mm: #0054D4;
+  --other: #000000;
+  --cntw: #D76D12;
+  --warn: #B0021F;
+  --ext: #107CB9;
+  --wip: #B0021F;
+  --fin: #78A700;
+}
+
+.blurb .header:has(ul.required-tags) .heading {
+  margin-left: 0;
+}
+
+.blurb ul.required-tags,
+.blurb ul.required-tags li,
+.blurb ul.required-tags li a,
+.blurb ul.required-tags li span,
+.blurb ul.required-tags li + li + li,
+.blurb ul.required-tags li + li + li + li {
+  display: block;
+  position: unset;
+  width: unset;
+  height: unset;
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background: unset;
+  font-size: 1em;
+  font-weight: initial;
+  text-transform: capitalize;
+  line-height: 1;
+  color: var(--text);
+}
+
+.blurb ul.required-tags {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.3em;
+  margin-top: 0.35em;
+  margin-bottom: 0;
+}
+
+.blurb ul.required-tags > li > a > span.warnings,
+.blurb ul.required-tags > li > a > span:not(:is(.warning-yes,
+.warning-choosenotto))::before {
+  display: block;
+  margin-block: 0.15em;
+  padding-block: 0.25em;
+  padding-inline: 0.35em;
+  border-radius: 0;
+}
+
+.blurb ul.required-tags > li > a > span:not(.warnings) > span.text {
+  display: none;
+}
+
+.index:not(.prompt) .blurb ul.required-tags > li:has(.warnings):not(:has(.warning-yes,
+.warning-choosenotto)),
+.index:not(.prompt) .blurb ul.required-tags > li > a > :is(.warning-yes,
+.warning-choosenotto) > span.text {
+  display: none;
+}
+
+.required-tags .warning-choosenotto {
+  background: var(--cntw) !important;
+}
+
+.index:not(.prompt) .required-tags .warning-choosenotto::before {
+  content: "CNTW";
+}
+
+.required-tags .warning-yes {
+  background: var(--warn) !important;
+}
+
+.index:not(.prompt) .required-tags .warning-yes::before {
+  content: "Warnings";
+}
+
+.required-tags .warning-no {
+  background: var(--none) !important;
+}
+
+.required-tags .external-work::before {
+  content: "External Work";
+  background: var(--ext) !important;
+}
+
+.required-tags .complete-no[Title*="in Progress" i]::before {
+  content: "WIP";
+  background: var(--wip);
+}
+
+.required-tags .complete-no[Title*="Unfulfilled" i]::before {
+  content: "Unfulfilled";
+  background: var(--wip);
+}
+
+.required-tags .complete-yes[Title*="Complete" i]::before {
+  content: "Complete";
+  background: var(--fin);
+}
+
+.required-tags .complete-yes[Title*="Filled" i]::before {
+  content: "Fulfilled";
+  background: var(--fin);
+}
+
+.required-tags .category-femslash::before {
+  content: "F/F";
+  background: var(--ff);
+}
+
+.required-tags .category-het::before {
+  content: "F/M";
+  background: var(--fm);
+}
+
+.required-tags .category-gen::before {
+  content: "Gen";
+  background: var(--gen);
+}
+
+.required-tags .category-slash::before {
+  content: "M/M";
+  background: var(--mm);
+}
+
+.required-tags .category-multi::before {
+  content: "Multi";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--mm), var(--gen));
+}
+
+.required-tags .category-other::before {
+  content: "Other";
+  background: var(--other);
+}
+
+.required-tags .category-none::before {
+  content: "No Category";
+  background: var(--none);
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i]::before {
+  content: "F/F, F/M";
+  background: linear-gradient(to right, var(--ff), var(--fm));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="Gen" i]::before {
+  content: "F/F, Gen";
+  background: linear-gradient(to right, var(--ff), var(--gen));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i]::before {
+  content: "F/F, M/M";
+  background: linear-gradient(to right, var(--ff), var(--mm));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="Other" i]::before {
+  content: "F/F, Other";
+  background: linear-gradient(to right, var(--ff), var(--other));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="Gen" i]::before {
+  content: "F/M, Gen";
+  background: linear-gradient(to right, var(--fm), var(--gen));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i]::before {
+  content: "F/M, M/M";
+  background: linear-gradient(to right, var(--fm), var(--mm));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="Other" i]::before {
+  content: "F/M, Other";
+  background: linear-gradient(to right, var(--fm), var(--other));
+}
+
+.required-tags .category[Title*="M/M" i][Title*="Gen" i]::before {
+  content: "M/M, Gen";
+  background: linear-gradient(to right, var(--mm), var(--gen));
+}
+
+.required-tags .category[Title*="Gen" i][Title*="Other" i]::before {
+  content: "Gen, Other";
+  background: linear-gradient(to right, var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="M/M" i][Title*="Other" i]::before {
+  content: "M/M, Other";
+  background: linear-gradient(to right, var(--mm), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i]::before {
+  content: "F/F, F/M, Gen";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--gen));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="M/M" i]::before {
+  content: "F/F, F/M, M/M";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--mm));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Other" i]::before {
+  content: "F/F, F/M, Other";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i][Title*="Gen" i]::before {
+  content: "F/F, M/M, Gen";
+  background: linear-gradient(to right, var(--ff), var(--mm), var(--gen));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/F, Gen, Other";
+  background: linear-gradient(to right, var(--ff), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i][Title*="Gen" i]::before {
+  content: "F/M, M/M, Gen";
+  background: linear-gradient(to right, var(--fm), var(--mm), var(--gen));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/M, Gen, Other";
+  background: linear-gradient(to right, var(--fm), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/F, M/M, Other";
+  background: linear-gradient(to right, var(--ff), var(--mm), var(--other));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/M, M/M, Other";
+  background: linear-gradient(to right, var(--fm), var(--mm), var(--other));
+}
+
+.required-tags .category[Title*="Gen" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "M/M, Gen, Other";
+  background: linear-gradient(to right, var(--mm), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i][Title*="M/M" i]::before {
+  content: "F/F, F/M, M/M, Gen";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--mm), var(--gen));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/F, F/M, Gen, Other";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/F, F/M, M/M, Other";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--mm), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/F, M/M, Gen, Other";
+  background: linear-gradient(to right, var(--ff), var(--mm), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/M, M/M, Gen, Other";
+  background: linear-gradient(to right, var(--fm), var(--mm), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/F, F/M, M/M, Gen, Other";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--mm), var(--gen), var(--other));
+}
+
+.required-tags .rating-general-audience::before {
+  content: "Gen";
+  background: var(--g);
+}
+
+.required-tags .rating-teen::before {
+  content: "Teen";
+  background: var(--t);
+}
+
+.required-tags .rating-mature::before {
+  content: "Mature";
+  background: var(--m);
+}
+
+.required-tags .rating-explicit::before {
+  content: "Explicit";
+  background: var(--e);
+}
+
+.required-tags .rating-notrated::before {
+  content: "Not Rated";
+  background: var(--none);
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i]::before {
+  content: "Gen, Teen";
+  background: linear-gradient(to right, var(--g), var(--t));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Mature" i]::before {
+  content: "Gen, Mature";
+  background: linear-gradient(to right, var(--g), var(--m));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Explicit" i]::before {
+  content: "Gen, Explicit";
+  background: linear-gradient(to right, var(--g), var(--e));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Not Rated" i]::before {
+  content: "Gen, Not Rated";
+  background: linear-gradient(to right, var(--g), var(--none));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Mature" i]::before {
+  content: "Teen, Mature";
+  background: linear-gradient(to right, var(--t), var(--m));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Explicit" i]::before {
+  content: "Teen, Explicit";
+  background: linear-gradient(to right, var(--t), var(--e));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Not Rated" i]::before {
+  content: "Teen, Not Rated";
+  background: linear-gradient(to right, var(--t), var(--none));
+}
+
+.required-tags .rating[Title*="Mature" i][Title*="Explicit" i]::before {
+  content: "Mature, Explicit";
+  background: linear-gradient(to right, var(--m), var(--e));
+}
+
+.required-tags .rating[Title*="Mature" i][Title*="Not Rated" i]::before {
+  content: "Mature, Not Rated";
+  background: linear-gradient(to right, var(--m), var(--none));
+}
+
+.required-tags .rating[Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Explicit, Not Rated";
+  background: linear-gradient(to right, var(--e), var(--none));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Mature" i]::before {
+  content: "Gen, Teen, Mature";
+  background: linear-gradient(to right, var(--g), var(--t), var(--m));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Explicit" i]::before {
+  content: "Gen, Teen, Explicit";
+  background: linear-gradient(to right, var(--g), var(--t), var(--e));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Not Rated" i]::before {
+  content: "Gen, Teen, Not Rated";
+  background: linear-gradient(to right, var(--g), var(--t), var(--none));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Mature" i][Title*="Explicit" i]::before {
+  content: "Gen, Mature, Explicit";
+  background: linear-gradient(to right, var(--g), var(--m), var(--e));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Mature" i][Title*="Not Rated" i]::before {
+  content: "Gen, Mature, Not Rated";
+  background: linear-gradient(to right, var(--g), var(--m), var(--none));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Mature" i][Title*="Explicit" i]::before {
+  content: "Teen, Mature, Explicit";
+  background: linear-gradient(to right, var(--t), var(--m), var(--e));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Mature" i][Title*="Not Rated" i]::before {
+  content: "Teen, Mature, Not Rated";
+  background: linear-gradient(to right, var(--t), var(--m), var(--none));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Gen, Explicit, Not Rated";
+  background: linear-gradien
