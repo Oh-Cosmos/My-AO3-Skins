@@ -1,0 +1,942 @@
+* {
+  background-color: #0d0a1a !important;
+  color: #d0c8f0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 12px !important;
+  background: #0d0a1a !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7b2fff !important;
+  border: 2px solid #0d0a1a !important;
+  border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00cfff !important;
+}
+
+::selection {
+  background: #7b2fff !important;
+  color: #ffffff !important;
+}
+
+::-moz-selection {
+  background: #7b2fff !important;
+  color: #ffffff !important;
+}
+
+body,
+#main,
+#header,
+#footer,
+#dashboard,
+.region,
+.content,
+#main ul.dashboard,
+#work-filters,
+.blurb,
+.comment,
+.wrapper,
+.module {
+  background: #0d0a1a !important;
+  color: #d0c8f0 !important;
+  border-color: #2a2040 !important;
+}
+
+#header {
+  background-image: url('https://i.imgur.com/kYMrsno.png') !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-color: #0d0a1a !important;
+  border-bottom: 3px solid #7b2fff !important;
+  box-shadow: 0 4px 20px rgba(123, 47, 255, 0.4) !important;
+  min-height: 180px !important;
+  position: relative !important;
+}
+
+#header .primary,
+#header .secondary,
+#header .search {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding-bottom: 8px !important;
+}
+
+#greeting,
+nav#greeting,
+nav#greeting ul,
+nav#greeting li,
+nav#greeting p.icon,
+nav#greeting a,
+li.search,
+form.search,
+fieldset,
+p {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+#dashboard,
+#dashboard ul {
+  border-right: 1px solid #7b2fff !important;
+}
+
+#footer {
+  border-top: 1px solid #7b2fff !important;
+  margin-top: 1.2em !important;
+}
+
+.splash .browse li a:before {
+  color: #7b2fff !important;
+}
+
+#header .heading img.logo {
+  display: none !important;
+}
+
+h1,
+#header .heading a {
+  font-family: 'Fido', 'Impact', sans-serif !important;
+  font-size: 2em !important;
+  color: #ffffff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  text-shadow: 0 0 20px rgba(123, 47, 255, 0.9), 0 0 40px rgba(0, 207, 255, 0.5) !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+.title,
+.label,
+.heading {
+  font-family: 'Fido', 'Impact', sans-serif !important;
+  background: linear-gradient(90deg, #00cfff, #7b2fff, #ff4fd8, #ffb347) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  letter-spacing: 2px !important;
+  color: transparent !important;
+  text-transform: uppercase !important;
+}
+
+#header > h1,
+#header > h1 * {
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+#work-form > fieldset.preface > dl > dt.title.required > label,
+#work-form > fieldset.preface > dl > dt.title.required > label * {
+  background-color: transparent !important;
+}
+
+.heading a,
+.heading a:link {
+  -webkit-text-fill-color: #00cfff !important;
+  color: #00cfff !important;
+}
+
+.heading a:hover {
+  -webkit-text-fill-color: #F6BF33 !important;
+  color: #F6BF33 !important;
+}
+
+p,
+li,
+dl,
+blockquote {
+  font-family: 'Inclusive Sans', 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+}
+
+.tags a,
+.stats dt,
+.stats dd,
+.metadata dd,
+.metadata dt,
+.footnote,
+.datetime,
+.byline,
+#footer ul,
+p.notes,
+small,
+.userstuff p {
+  font-family: 'Inclusive Sans', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+
+.datetime,
+.byline {
+  color: #6655aa !important;
+}
+
+blockquote {
+  border-left: 3px solid #7b2fff !important;
+  padding-left: 1em !important;
+  margin-left: 0 !important;
+  color: #9988cc !important;
+  font-style: italic !important;
+}
+
+a,
+a:link,
+a:visited,
+.module h3 {
+  color: #00cfff !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+a:hover {
+  color: #F6BF33 !important;
+  background: rgba(246, 191, 51, 0.1) !important;
+  text-shadow: 0 0 8px rgba(246, 191, 51, 0.5) !important;
+}
+
+#header a,
+#header .current,
+#dashboard a,
+#dashboard .current {
+  color: #d0c8f0 !important;
+  text-shadow: 0 0 6px rgba(123, 47, 255, 0.6) !important;
+  transition: all 0.3s ease !important;
+}
+
+#header .menu {
+  background: rgba(13, 10, 26, 0.95) !important;
+  border: 1px solid #7b2fff !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9) !important;
+}
+
+#header .menu li a,
+#header .menu li a:link {
+  color: #d0c8f0 !important;
+  background: transparent !important;
+}
+
+#header .menu li a:visited {
+  background: transparent !important;
+  color: #d0c8f0 !important;
+}
+
+#header a:hover,
+#header .menu li a:hover,
+#header .menu li a:focus,
+#header .dropdown:hover a {
+  background: #7b2fff !important;
+  color: #ffffff !important;
+  text-shadow: 0 0 8px rgba(123, 47, 255, 0.8) !important;
+}
+
+#header .action,
+#header .button,
+#header button,
+#header ul.actions li a,
+#header li.bookmark a.button {
+  color: #d0c8f0 !important;
+  border-color: #7b2fff !important;
+}
+
+#header .action:hover,
+#header .button:hover,
+#header ul.actions li a:hover {
+  background: #7b2fff !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 12px rgba(123, 47, 255, 0.6) !important;
+}
+
+#header ul.navigation.actions > li > a,
+#header ul.navigation.actions > li > a:link,
+#header ul.navigation.actions > li > a:visited {
+  color: #d0c8f0 !important;
+  border-color: #7b2fff !important;
+}
+
+#header ul.navigation.actions > li > a:hover {
+  background: #7b2fff !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 12px rgba(123, 47, 255, 0.6) !important;
+}
+
+#dashboard.region.own .action,
+#dashboard.region.own .button,
+#dashboard.region.own ul.actions li a,
+#dashboard.region.own a {
+  color: #7b2fff !important;
+  border-color: #00cfff !important;
+  border-width: 0 !important;
+  border-right-width: 2px !important;
+  border-radius: 0 4px 4px 0 !important;
+  transition: all 0.3s ease !important;
+}
+
+#dashboard.region.own .action:hover,
+#dashboard.region.own .button:hover,
+#dashboard.region.own ul.actions li a:hover,
+#dashboard.region.own a:hover,
+#dashboard.region.own .action:visited:hover,
+#dashboard.region.own .button:visited:hover,
+#dashboard.region.own ul.actions li a:visited:hover,
+#dashboard.region.own a:visited:hover {
+  background-color: #00cfff !important;
+  color: #ffffff !important;
+  border-color: #00cfff !important;
+  border-width: 0 !important;
+  border-right-width: 2px !important;
+  box-shadow: 4px 0 10px rgba(123, 47, 255, 0.5) !important;
+  text-shadow: none !important;
+}
+
+#dashboard.region.own,
+#dashboard.region.own .action:visited,
+#dashboard.region.own .button:visited,
+#dashboard.region.own ul.actions li a:visited,
+#dashboard.region.own a:visited {
+  background: #0d0a1a !important;
+}
+
+.action,
+.button,
+button,
+.current,
+.ui-sortable-handle,
+#main .action a,
+ul.actions li a,
+li.bookmark a.button {
+  background: #1a1230 !important;
+  color: #00cfff !important;
+  border: 0 !important;
+  border-bottom: 2px solid transparent !important;
+  border-radius: 0 0 4px 4px !important;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  padding: 5px 12px !important;
+  transition: all 0.3s ease !important;
+  cursor: pointer !important;
+}
+
+.action:hover,
+.button:hover,
+#main .action a:hover,
+ul.actions li a:hover {
+  background: #00cfff !important;
+  color: #0d0a1a !important;
+  border-bottom-color: #00cfff !important;
+  box-shadow: 0 4px 12px rgba(0, 207, 255, 0.5) !important;
+}
+
+input,
+textarea,
+select {
+  background: #1a1230 !important;
+  color: #00cfff !important;
+  border: 1px solid #2a2040 !important;
+  padding: 4px !important;
+  transition: border 0.3s ease !important;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #7b2fff !important;
+  outline: none !important;
+  box-shadow: 0 0 8px rgba(123, 47, 255, 0.5) !important;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background: #1a1230 !important;
+  color: #00cfff !important;
+  border: 0 !important;
+  border-bottom: 2px solid transparent !important;
+  border-radius: 0 0 4px 4px !important;
+  font-family: 'Consolas', 'Monaco', monospace !important;
+  cursor: pointer !important;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background: #00cfff !important;
+  color: #0d0a1a !important;
+  border-bottom-color: #00cfff !important;
+  box-shadow: 0 4px 12px rgba(0, 207, 255, 0.5) !important;
+}
+
+li.blurb {
+  background: #110e22 !important;
+  border: 1px solid transparent !important;
+  border-radius: 4px !important;
+  margin-bottom: 1.5em !important;
+  padding: 15px !important;
+  box-shadow: none !important;
+  transition: all 0.3s ease !important;
+}
+
+li.blurb:hover {
+  border-color: #7b2fff !important;
+  box-shadow: -6px 6px 0px rgba(123, 47, 255, 0.3) !important;
+}
+
+ul.required-tags,
+ul.required-tags li,
+ul.required-tags a,
+ul.required-tags span {
+  background-color: transparent !important;
+  -webkit-text-fill-color: initial !important;
+  color: initial !important;
+}
+
+#work-filters fieldset,
+#work-filters dl,
+#work-filters dd {
+  background: #0d0a1a !important;
+  border: 1px solid #7b2fff !important;
+  color: #d0c8f0 !important;
+}
+
+#work-filters legend {
+  background: #0d0a1a !important;
+  color: #00cfff !important;
+  font-family: 'Fido', 'Impact', sans-serif !important;
+  text-transform: uppercase !important;
+  padding: 0 8px !important;
+}
+
+.filters dl,
+.filters dt {
+  padding: 5px !important;
+}
+
+.tags a {
+  transition: all 0.3s ease !important;
+}
+
+.tags a:hover {
+  color: #F6BF33 !important;
+  background: rgba(246, 191, 51, 0.1) !important;
+  text-shadow: 0 0 8px rgba(246, 191, 51, 0.5) !important;
+}
+
+.relationships a,
+.relationships .tag {
+  background: #1a1230 !important;
+  color: #00cfff !important;
+  border: 1px solid #7b2fff !important;
+  padding: 3px 8px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 0 5px rgba(123, 47, 255, 0.3) !important;
+  transition: all 0.3s ease !important;
+}
+
+.relationships a:hover,
+.relationships .tag:hover {
+  background: #7b2fff !important;
+  color: #ffffff !important;
+  border-color: #00cfff !important;
+  box-shadow: 0 0 12px rgba(123, 47, 255, 0.6), 0 0 4px rgba(0, 207, 255, 0.4) !important;
+  text-shadow: none !important;
+}
+
+.flash,
+.notice,
+.success,
+.error {
+  background: #1a1230 !important;
+  border: 2px solid #7b2fff !important;
+  color: #d0c8f0 !important;
+  font-family: 'Consolas', 'Monaco', monospace !important;
+  box-shadow: 0 0 15px rgba(123, 47, 255, 0.3) !important;
+  padding: 12px !important;
+}
+
+.error,
+.flash.error {
+  border-color: #ff4fd8 !important;
+  color: #ff4fd8 !important;
+  box-shadow: 0 0 15px rgba(255, 79, 216, 0.3) !important;
+}
+
+.flash:empty,
+.notice:empty,
+.success:empty,
+.error:empty {
+  display: none !important;
+}
+
+.tox.tox-tinymce [role="application"] {
+  color: #ffffff !important;
+}
+
+p.actions,
+p.actions a,
+p.actions a:link,
+ul.actions,
+ul.actions a,
+ul.actions a:link,
+span.actions,
+span.actions a,
+span.actions a:link,
+li.actions,
+li.actions a,
+li.actions a:link {
+  background-color: #0d0a1a !important;
+  background: #0d0a1a !important;
+}
+
+.site-skin-metadata {
+  content: "==================================================
+
+  - Skin:         Replace the Content Icons With Text Labels
+  - Author:       ZerafinaCSS [https://tumblr.com/zerafinacss]
+  - Instructions: https://ao3.org/works/76032096/chapters/198940896
+  - Repository:   https://github.com/ZerafinaCSS/Site-Skin-Add-Ons
+  - License:      MIT
+  - Updated:      2026-Mar-14 19:06 UTC
+
+  ==========================================================";
+}
+
+:root {
+  --text: #FFFFFF;
+  --none: #999999;
+  --g: #78A700;
+  --t: #E6B000;
+  --m: #D76D12;
+  --e: #B0021F;
+  --ff: #B0021F;
+  --fm: #910679;
+  --gen: #78A700;
+  --mm: #0054D4;
+  --other: #000000;
+  --cntw: #D76D12;
+  --warn: #B0021F;
+  --ext: #107CB9;
+  --wip: #B0021F;
+  --fin: #78A700;
+}
+
+.blurb .header:has(ul.required-tags) .heading {
+  margin-left: 0;
+}
+
+.blurb ul.required-tags,
+.blurb ul.required-tags li,
+.blurb ul.required-tags li a,
+.blurb ul.required-tags li span,
+.blurb ul.required-tags li + li + li,
+.blurb ul.required-tags li + li + li + li {
+  display: block;
+  position: unset;
+  width: unset;
+  height: unset;
+  margin: unset;
+  padding: unset;
+  border: unset;
+  background: unset;
+  font-size: 1em;
+  font-weight: initial;
+  text-transform: capitalize;
+  line-height: 1;
+  color: var(--text);
+}
+
+.blurb ul.required-tags {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.3em;
+  margin-top: 0.35em;
+  margin-bottom: 0;
+}
+
+.blurb ul.required-tags > li > a > span.warnings,
+.blurb ul.required-tags > li > a > span:not(:is(.warning-yes,
+.warning-choosenotto))::before {
+  display: block;
+  margin-block: 0.15em;
+  padding-block: 0.25em;
+  padding-inline: 0.35em;
+  border-radius: 0;
+}
+
+.blurb ul.required-tags > li > a > span:not(.warnings) > span.text {
+  display: none;
+}
+
+.index:not(.prompt) .blurb ul.required-tags > li:has(.warnings):not(:has(.warning-yes,
+.warning-choosenotto)),
+.index:not(.prompt) .blurb ul.required-tags > li > a > :is(.warning-yes,
+.warning-choosenotto) > span.text {
+  display: none;
+}
+
+.required-tags .warning-choosenotto {
+  background: var(--cntw) !important;
+}
+
+.index:not(.prompt) .required-tags .warning-choosenotto::before {
+  content: "CNTW";
+}
+
+.required-tags .warning-yes {
+  background: var(--warn) !important;
+}
+
+.index:not(.prompt) .required-tags .warning-yes::before {
+  content: "Warnings";
+}
+
+.required-tags .warning-no {
+  background: var(--none) !important;
+}
+
+.required-tags .external-work::before {
+  content: "External Work";
+  background: var(--ext) !important;
+}
+
+.required-tags .complete-no[Title*="in Progress" i]::before {
+  content: "WIP";
+  background: var(--wip);
+}
+
+.required-tags .complete-no[Title*="Unfulfilled" i]::before {
+  content: "Unfulfilled";
+  background: var(--wip);
+}
+
+.required-tags .complete-yes[Title*="Complete" i]::before {
+  content: "Complete";
+  background: var(--fin);
+}
+
+.required-tags .complete-yes[Title*="Filled" i]::before {
+  content: "Fulfilled";
+  background: var(--fin);
+}
+
+.required-tags .category-femslash::before {
+  content: "F/F";
+  background: var(--ff);
+}
+
+.required-tags .category-het::before {
+  content: "F/M";
+  background: var(--fm);
+}
+
+.required-tags .category-gen::before {
+  content: "Gen";
+  background: var(--gen);
+}
+
+.required-tags .category-slash::before {
+  content: "M/M";
+  background: var(--mm);
+}
+
+.required-tags .category-multi::before {
+  content: "Multi";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--mm), var(--gen));
+}
+
+.required-tags .category-other::before {
+  content: "Other";
+  background: var(--other);
+}
+
+.required-tags .category-none::before {
+  content: "No Category";
+  background: var(--none);
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i]::before {
+  content: "F/F, F/M";
+  background: linear-gradient(to right, var(--ff), var(--fm));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="Gen" i]::before {
+  content: "F/F, Gen";
+  background: linear-gradient(to right, var(--ff), var(--gen));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i]::before {
+  content: "F/F, M/M";
+  background: linear-gradient(to right, var(--ff), var(--mm));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="Other" i]::before {
+  content: "F/F, Other";
+  background: linear-gradient(to right, var(--ff), var(--other));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="Gen" i]::before {
+  content: "F/M, Gen";
+  background: linear-gradient(to right, var(--fm), var(--gen));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i]::before {
+  content: "F/M, M/M";
+  background: linear-gradient(to right, var(--fm), var(--mm));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="Other" i]::before {
+  content: "F/M, Other";
+  background: linear-gradient(to right, var(--fm), var(--other));
+}
+
+.required-tags .category[Title*="M/M" i][Title*="Gen" i]::before {
+  content: "M/M, Gen";
+  background: linear-gradient(to right, var(--mm), var(--gen));
+}
+
+.required-tags .category[Title*="Gen" i][Title*="Other" i]::before {
+  content: "Gen, Other";
+  background: linear-gradient(to right, var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="M/M" i][Title*="Other" i]::before {
+  content: "M/M, Other";
+  background: linear-gradient(to right, var(--mm), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i]::before {
+  content: "F/F, F/M, Gen";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--gen));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="M/M" i]::before {
+  content: "F/F, F/M, M/M";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--mm));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Other" i]::before {
+  content: "F/F, F/M, Other";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i][Title*="Gen" i]::before {
+  content: "F/F, M/M, Gen";
+  background: linear-gradient(to right, var(--ff), var(--mm), var(--gen));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/F, Gen, Other";
+  background: linear-gradient(to right, var(--ff), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i][Title*="Gen" i]::before {
+  content: "F/M, M/M, Gen";
+  background: linear-gradient(to right, var(--fm), var(--mm), var(--gen));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/M, Gen, Other";
+  background: linear-gradient(to right, var(--fm), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/F, M/M, Other";
+  background: linear-gradient(to right, var(--ff), var(--mm), var(--other));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/M, M/M, Other";
+  background: linear-gradient(to right, var(--fm), var(--mm), var(--other));
+}
+
+.required-tags .category[Title*="Gen" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "M/M, Gen, Other";
+  background: linear-gradient(to right, var(--mm), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i][Title*="M/M" i]::before {
+  content: "F/F, F/M, M/M, Gen";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--mm), var(--gen));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/F, F/M, Gen, Other";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/F, F/M, M/M, Other";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--mm), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="M/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/F, M/M, Gen, Other";
+  background: linear-gradient(to right, var(--ff), var(--mm), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/M" i][Title*="M/M" i][Title*="Gen" i][Title*="Other" i]::before {
+  content: "F/M, M/M, Gen, Other";
+  background: linear-gradient(to right, var(--fm), var(--mm), var(--gen), var(--other));
+}
+
+.required-tags .category[Title*="F/F" i][Title*="F/M" i][Title*="Gen" i][Title*="M/M" i][Title*="Other" i]::before {
+  content: "F/F, F/M, M/M, Gen, Other";
+  background: linear-gradient(to right, var(--ff), var(--fm), var(--mm), var(--gen), var(--other));
+}
+
+.required-tags .rating-general-audience::before {
+  content: "Gen";
+  background: var(--g);
+}
+
+.required-tags .rating-teen::before {
+  content: "Teen";
+  background: var(--t);
+}
+
+.required-tags .rating-mature::before {
+  content: "Mature";
+  background: var(--m);
+}
+
+.required-tags .rating-explicit::before {
+  content: "Explicit";
+  background: var(--e);
+}
+
+.required-tags .rating-notrated::before {
+  content: "Not Rated";
+  background: var(--none);
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i]::before {
+  content: "Gen, Teen";
+  background: linear-gradient(to right, var(--g), var(--t));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Mature" i]::before {
+  content: "Gen, Mature";
+  background: linear-gradient(to right, var(--g), var(--m));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Explicit" i]::before {
+  content: "Gen, Explicit";
+  background: linear-gradient(to right, var(--g), var(--e));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Not Rated" i]::before {
+  content: "Gen, Not Rated";
+  background: linear-gradient(to right, var(--g), var(--none));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Mature" i]::before {
+  content: "Teen, Mature";
+  background: linear-gradient(to right, var(--t), var(--m));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Explicit" i]::before {
+  content: "Teen, Explicit";
+  background: linear-gradient(to right, var(--t), var(--e));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Not Rated" i]::before {
+  content: "Teen, Not Rated";
+  background: linear-gradient(to right, var(--t), var(--none));
+}
+
+.required-tags .rating[Title*="Mature" i][Title*="Explicit" i]::before {
+  content: "Mature, Explicit";
+  background: linear-gradient(to right, var(--m), var(--e));
+}
+
+.required-tags .rating[Title*="Mature" i][Title*="Not Rated" i]::before {
+  content: "Mature, Not Rated";
+  background: linear-gradient(to right, var(--m), var(--none));
+}
+
+.required-tags .rating[Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Explicit, Not Rated";
+  background: linear-gradient(to right, var(--e), var(--none));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Mature" i]::before {
+  content: "Gen, Teen, Mature";
+  background: linear-gradient(to right, var(--g), var(--t), var(--m));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Explicit" i]::before {
+  content: "Gen, Teen, Explicit";
+  background: linear-gradient(to right, var(--g), var(--t), var(--e));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Not Rated" i]::before {
+  content: "Gen, Teen, Not Rated";
+  background: linear-gradient(to right, var(--g), var(--t), var(--none));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Mature" i][Title*="Explicit" i]::before {
+  content: "Gen, Mature, Explicit";
+  background: linear-gradient(to right, var(--g), var(--m), var(--e));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Mature" i][Title*="Not Rated" i]::before {
+  content: "Gen, Mature, Not Rated";
+  background: linear-gradient(to right, var(--g), var(--m), var(--none));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Mature" i][Title*="Explicit" i]::before {
+  content: "Teen, Mature, Explicit";
+  background: linear-gradient(to right, var(--t), var(--m), var(--e));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Mature" i][Title*="Not Rated" i]::before {
+  content: "Teen, Mature, Not Rated";
+  background: linear-gradient(to right, var(--t), var(--m), var(--none));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Gen, Explicit, Not Rated";
+  background: linear-gradient(to right, var(--g), var(--e), var(--none));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Teen, Explicit, Not Rated";
+  background: linear-gradient(to right, var(--t), var(--e), var(--none));
+}
+
+.required-tags .rating[Title*="Mature" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Mature, Explicit, Not Rated";
+  background: linear-gradient(to right, var(--m), var(--e), var(--none));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Mature" i][Title*="Explicit" i]::before {
+  content: "Gen, Teen, Mature, Explicit";
+  background: linear-gradient(to right, var(--g), var(--t), var(--m), var(--e));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Mature" i][Title*="Not Rated" i]::before {
+  content: "Gen, Teen, Mature, Not Rated";
+  background: linear-gradient(to right, var(--g), var(--t), var(--m), var(--none));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Gen, Teen, Explicit, Not Rated";
+  background: linear-gradient(to right, var(--g), var(--t), var(--e), var(--none));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Mature" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Gen, Mature, Explicit, Not Rated";
+  background: linear-gradient(to right, var(--g), var(--m), var(--e), var(--none));
+}
+
+.required-tags .rating[Title*="Teen" i][Title*="Mature" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Teen, Mature, Explicit, Not Rated";
+  background: linear-gradient(to right, var(--t), var(--m), var(--e), var(--none));
+}
+
+.required-tags .rating[Title*="Gen" i][Title*="Teen" i][Title*="Mature" i][Title*="Explicit" i][Title*="Not Rated" i]::before {
+  content: "Gen, Teen, Mature, Explicit, Not Rated";
+  background: linear-gradient(to right, var(--g), var(--t), var(--m), var(--e), var(--none));
+}
