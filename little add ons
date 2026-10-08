@@ -1,0 +1,97 @@
+
+#main h2.heading::before {
+  content: "╭────────.★..─╮";
+  display: block;
+  margin-top: 0.2em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+#main h2.heading::after {
+  content: "╰─..★.────────╯";
+  display: block;
+  margin-top: 0.2em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.bookmarks-index li.bookmark:nth-child(17n):has(.tags)::before {
+  content: "🚨 data integrity compromised.";
+  letter-spacing: 0.05em;
+}
+
+.bookmarks-index li.bookmark:nth-child(11n):not(:nth-child(17n)):has(.tags)::before {
+  content: "⚠️ this entry keeps changing.";
+}
+
+.bookmarks-index li.bookmark:nth-child(7n):not(:nth-child(11n)):not(:nth-child(17n)):has(.tags)::before {
+  content: "📡 anomaly detected in stored data.";
+}
+
+.bookmarks-index li.bookmark:nth-child(5n):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(17n)):has(.tags)::before {
+  content: "🔬 recorded data does not align.";
+}
+
+.bookmarks-index li.bookmark:nth-child(3n):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(17n)):has(.tags)::before {
+  content: "🛰️ minor discrepancy logged.";
+}
+
+.bookmarks-index li.bookmark:nth-child(2n):not(:nth-child(3n)):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(17n)):has(.tags)::before {
+  content: "📁 data archived successfully.";
+}
+
+.bookmark:not(:has(.tags))::before {
+  content: "🛸 uncharted territory. remain seated.";
+}
+
+.bookmarks-index::before {
+  content: "🚀 returning to base.";
+}
+
+.bookmark blockquote.userstuff::before {
+  content: "🛰️ travel log:";
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.works-index::before {
+  content: "🗂️ browsing archived signals.";
+}
+
+.inbox::before {
+  content: "📡 incoming transmission.";
+}
+
+.bookmarks-index .bookmark:nth-child(9n)::after {
+  content: "🔬 entry doesn't match prior readings.";
+  display: block;
+  margin-top: 0.3em;
+  opacity: 0.4;
+  letter-spacing: 0.02em;
+}
+
+.works-index .work:nth-of-type(17n)::before {
+  content: "🚨 prepare for impact.";
+  opacity: 0.75;
+  letter-spacing: 0.05em;
+}
+
+.works-index .work:nth-of-type(11n):not(:nth-of-type(17n))::before {
+  content: "⚠️ signal persists. it shouldn't.";
+}
+
+.works-index .work:nth-of-type(7n):not(:nth-of-type(11n)):not(:nth-of-type(17n))::before {
+  content: "☄️ unidentified object approaching.";
+}
+
+.works-index .work:nth-of-type(5n):not(:nth-of-type(7n)):not(:nth-of-type(11n)):not(:nth-of-type(17n))::before {
+  content: "🔬 readings are inconsistent.";
+}
+
+.works-index .work:nth-of-type(3n):not(:nth-of-type(5n)):not(:nth-of-type(7n)):not(:nth-of-type(11n)):not(:nth-of-type(17n))::before {
+  content: "📡 anomaly logged. collecting sample.";
+}
+
+.works-index .work:nth-of-type(2n):not(:nth-of-type(3n)):not(:nth-of-type(5n)):not(:nth-of-type(7n)):not(:nth-of-type(11n)):not(:nth-of-type(17n))::before {
+  content: "⭐ just another star.";
+}
